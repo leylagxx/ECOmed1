@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO Med</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+ 
+ <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+ <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container2">
+            <nav class="menu">
+                <div class="menu__logo">
+                    <a href="#"><img src="img/logo.jpg" alt="Logo"></a>
+                </div>
+                <div class="menu__items">
+                    <input class="check" type="checkbox" name="" id="hambruger">
+                     <label for="hambruger">
+                         <div class="hambruger">
+                             <span></span>
+                             <span></span>
+                             <span></span>   
+                             
+                             
+                         </div>
+                     </label> 
+                     <ul class="navigation">
+                         <li class="navigation__item"><a href="#sec1">О нас</a></li>
+                         <li class="navigation__item"><a href="#sec6">Приминение</a></li>
+                         <li class="navigation__item"><a href="#sec7">Оборудование</a></li>
+                         <li class="navigation__item"><a href="#sec11">Вопросы</a></li>
+                         <li id="myBtn1" class="navigation__item">Памятка потребителя<a href=""></a></li>
+                         <li class="navigation__item navigation__item_blue"><a href="#form">Оставить заявку</a></li>
+                     </ul> 
+                </div>
+            </nav> 
+            
+        </div>
+    </header>
+    <main class="sec1 mb6" style=" background-image: url(img/phone.png);" id="sec1">
+        <div class="phone" style="background-image: url(img/Rectangle7.png); 
+        border-top: solid 1px #d8d5d5;    background-size: 100% 180%;">
+
+        
+
+
+
+
+        <div class="sec1__row">
+            <h1 class="sec1__h1">Дышите свежим воздухом</h1>
+            <p class="sec1__p">Дезинфекционные растворы для помещений
+            любого назначения и ценового диапазона.
+            Убедитесь, что ваши помещения чисты и
+            безопасны с помощью Desinfect Med Eco.</p>
+            <button class="sec1__btn"> <a href="#form"> Заказать услугу</a></button>
+            <br>
+            <button id="Btn2" class="mybtn"><i class="fa fa-phone"></i></button>
+            <div id="myModal" class="modal">             
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close cls">&times;</span>
+                        <h1>Памятка потребителя</h1>
+                    </div>
+                    <div class="modal-body">
+                        <p>Прежде чем воспользоваться услугами какой-либо дезинфицирующей компании
+                        обязательно убедитесь в наличии всех документов и сертификатов на
+                        дезинфицирующее средство и используемое оборудование, предлагаемое этой
+                        компанией, а именно – сертификаты соответствия и безопасности, технический
+                        паспорт, лабораторные испытания, СГР (Свидетельство государственной регистрации)
+                        и действительность расположения в государственном реестре.
+                        </p>
+                        <p> <span class="red">ВНИМАНИЕ:</span> Не редко раствор обычного хлора, или несертифицированного химического средства, что ещё
+                        опаснее. Такие растворы не дезинфицируют помещение, но могут нанести вред Вашему
+                        здоровью.</p>
+                        
+                        <span class="cls1 close__btn ">Закрыть</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="myModal2" class="modal">             
+                <div class="modal-content">
+                        <span class="close cls3">&times;</span>
+                        <form class="form2">
+                            <h1 >Мы перезвоним, чтобы уточнить условия оплаты
+                           и записать ваш заказ</h1>
+                           <input name="name" type="text" class="contact-form__input contact-form__input_name" placeholder="Ф.И.О">
+                           <input name="tel" type="tel" class="contact-form__input contact-form__input_tel" placeholder=" номер телефона">
+                           <input name="email" type="email" class="contact-form__input contact-form__input_email" placeholder="Введите ваш email">
+                           <div class="contact-form__error contact-form__error_email"></div>
+                        
+                       
+                        <button class="form__button" type="submit">Заказать услугу</button>
+                      </form>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="sec2 ">
+        <h1 class="sec__h1 mb6" >БУДУЩЕЕ ДЕЗИНФЕКЦИИ УЖЕ
+            НАСТУПИЛО</h1>
+            
+        <div class="row1">
+            <div class="row__sec2Item">
+                <p><span class="blue">ТОО «DISINFECT MED ECO»</span> <br>  <br>Первый и единственный эксклюзивный представитель
+                    компании «Disinfect Med by Technology System»(Италия)
+                    на территории Российской Федерации и Республики
+                    Казахстан.
+                    <br>
+                    Компания «Disinfect Med by Technology System»
+                    производит дезинфицирующее и дезодорирующее
+                    оборудование (фрагментатор молекулярный), а так же
+                    средства к ним.</p>
+                
+            </div>
+            <div class="row__sec2Item">
+                <img src="img/patented.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+    <section class="sec3 mb6">
+        <h1 class="sec__h1 mb6">ДЕКЛАРАЦИЯ СООТВЕТСТВИЯ И
+
+            ТЕХНИЧЕСКАЯ СПЕЦИФИКАЦИЯ</h1>
+      
+            <div class="slider center">
+                <div><img src="img/image-027.jpg" alt="" style="width: 100%;"></div>        
+                <div><img src="img/image-028.jpg" alt="" style="width: 100%;"></div>
+                <div><img src="img/image-029.jpg" alt="" style="width: 100%;"></div>
+                <div><img src="img/image-030.jpg" alt="" style="width: 100%;"></div>
+
+            </div>
+                     
+</section>
+    <section class="sec4 mb6">
+        <h1 class="sec__h1 mb6">ПАСПОРТ БЕЗОПАСНОСТИ</h1>
+        <div class="slider center">
+            <div><img src="img/image-031.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-032.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-033.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-034.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-035.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-036.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-037.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/image-038.jpg" alt="" style="width: 100%;"></div>
+        </div>
+                <!-- <div class="images1 glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide"  >
+                    <img src="img/slider5.jpg" alt="" style="width: 100%; height: 110%;">
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider6.jpg" alt="" style="width: 100%; height: 110%;">
+
+                </li>
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider7.jpg" alt="" style="width: 100%; height: 100%;">
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider8.jpg" alt="" style="width: 100%; height: 100%;">
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider9.jpg" alt="" style="width: 100%; height: 100%;">
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider10.jpg" alt="" style="width: 100%; height: 100%;">
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider11.jpg" alt="" style="width: 100%; height: 100%;">
+
+                </li>
+                <li class="glide__slide"  >
+                    <img src="img/slider12.jpg" alt="" style="width: 100%; height: 100%;">
+
+                </li>
+              </ul>
+            </div>
+      
+          </div> -->
+       
+    </section> 
+    <section class="sec5 mb6">
+        <h1 class="sec5__h1 mb6">ЭКОЛОГИЧЕСКАЯ ДИЗЕНФЕКЦИЯ</h1>
+        <h3 class="sec5__h3">Новое решение от микробиологического 
+
+            загрязнение внутреней среды </h3>
+        <div class="row">
+            <div class="row__sec5Item1">
+                <img src="img/photo.jpg" alt="">
+            </div>
+            <div class="row__sec5Item2">
+                <h1 class="row__sec5Item2_h1">БЕЗОПАСНАЯ,
+
+                    БЫСТРАЯ И ПОЛНАЯ
+                    
+                    ДЕЗИНФЕКЦИЯ</h1>
+                    <hr>
+                    <h1 class="row__sec5Item2__h1">ПРОДУКТЫ DISINFECT MED ИДЕАЛЬНО ПОДХОДЯТ ДЛЯ СТЕРИЛИЗАЦИИ В ЛЮБОМ
+        ПОМЕЩЕНИИ</h1>
+            </div>
+
+        </div>
+    </section>
+    <section class="sec6" id="sec6">
+        <h1 class="sec__h1">ПРИМЕНЕНИЕ</h1>
+         <div class="rowSec6__desk"><div class="rowSec6">
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">01</h1>
+                    <h2>Медицина</h2>
+                    <p>Хеминклор используется для общей дезинфекционной уборки помещений, для дезинфекции, предстерилизационной очистки медицинских принадлежностей,  предметов ухода за больными, операционных, для дезинфекции оборудования и медицинских приборов.</p>
+                    
+                </div>
+                <div class="row_sec__img">
+                    <img src="img/prim1.jpg" alt="">
+                </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+<h1 class="number">02</h1>
+                <h2>Спорт</h2>
+            </div>
+                 <div class="row_sec__img">
+                <p>Применение Хеминклора позволяет
+                    обеспечить дезинфекцию спортивных
+                    сооружений, спортивного инвентаря.
+                    </p>
+               
+               
+                    <img src="img/prim2.jpg" alt="">
+                </div>
+                
+                   
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">03</h1>
+                    <h2>Образование</h2>
+                    <p>Хеминклор абсолютно безопасен и
+
+                    широко применяется в секторе
+                    
+                    образования: детские сады, школы, вузы
+                    
+                    и тд...</p>
+                </div>
+                
+                    <div class="row_sec__img">
+                        <img src="img/prim3.jpg" alt="">
+                    </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                     <h1 class="number">04</h1>
+                    <h2>В хозяйстве</h2>
+                   <p>Используют Хеминклор от
+                    дезинфекционной обработки
+                    Хеминклором яиц перед началом
+                    инкубации в птицеводстве до борьбы с
+                    вирусными и грибковыми болезнями
+                    растений, для обеззараживания семян и
+                    рассады,</p>
+                </div>
+               
+                    <div class="row_sec__img">
+                        <img src="img/prim4.jpg" alt="">
+                    </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">05</h1>
+                    <h2>Транспорт</h2>
+                    <p>Раствор Хеминклора используют на
+                    транспорте: в машинах скорой помощи
+                    гражданских и военных, на
+                    железнодорожных и авиационных
+                    транспортных средствах.</p>
+                </div>
+                
+                    <div class="row_sec__img">
+                        <img src="img/prim.jpg" alt="">
+                    </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">06</h1>
+                    <h2>Пищевая-пром</h2>
+                    <p>Применение Хеминклора позволяет
+    
+                    обеспечить идеальный
+                    санитарногигиенический режим на
+                    предприятиях
+                    
+                    по переработке продуктов питания.</p>
+                </div>
+               
+                <div class="row_sec__img">
+                    <img src="img/prim6.jpg" alt="">
+                </div>
+            </div>
+            <div class="row__sec6Item7">
+                <div class="sec6Item7__img" style="background-image: url(img/prim7.jpg);">
+                    
+                </div>
+                <div class="sec6Item7__text">
+                    <h1 class="number">07</h1>
+                <h2>В быту</h2>
+                <p>Хеминклор незаменим для домашнего
+
+                    использования, при эпидемиях как
+                    
+                    средство широкого спектра, при
+                    
+                    вирусных инфекциях, для очистки и
+                    
+                    стерилизации домашней утвари,
+                    
+                    устранения неприятных запахов.</p>
+                   
+                </div>
+                
+            </div>
+        </div> </div>
+        <div class="rowSec6__mob">
+        <div class="rowSec6">
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">01</h1>
+                    <h2>Медицина</h2>
+                    
+                </div>
+                <div class="row_sec__img">  
+                    <p>Хеминклор используется для общей дезинфекционной уборки помещений, для дезинфекции, предстерилизационной очистки медицинских принадлежностей,  предметов ухода за больными, операционных, для дезинфекции оборудования и медицинских приборов.</p>
+                    <img src="img/prim1.jpg" alt="">
+                </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+<h1 class="number">02</h1>
+                <h2>Спорт</h2>
+            </div>
+                 <div class="row_sec__img">
+                     <img src="img/prim2.jpg" alt="">
+                <p>Применение Хеминклора позволяет
+                    обеспечить дезинфекцию спортивных
+                    сооружений, спортивного инвентаря.
+                    </p>
+                </div>
+                
+                   
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">03</h1>
+                    <h2>Образование</h2>
+                    
+                </div>
+                
+                    <div class="row_sec__img">
+                        <p>Хеминклор абсолютно безопасен и
+
+                    широко применяется в секторе
+                    
+                    образования: детские сады, школы, вузы
+                    
+                    и тд...</p>
+                        <img src="img/prim3.jpg" alt="">
+                    </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                     <h1 class="number">04</h1>
+                    <h2>В хозяйстве</h2>
+                   
+                </div>
+               
+                    <div class="row_sec__img">
+                        <img src="img/prim4.jpg" alt="">
+                        <p>Используют Хеминклор от
+                    дезинфекционной обработки
+                    Хеминклором яиц перед началом
+                    инкубации в птицеводстве до борьбы с
+                    вирусными и грибковыми болезнями
+                    растений, для обеззараживания семян и
+                    рассады,</p>
+                    </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">05</h1>
+                    <h2>Транспорт</h2>
+                    
+                </div>
+                
+                    <div class="row_sec__img">
+                        <p>Раствор Хеминклора используют на
+                    транспорте: в машинах скорой помощи
+                    гражданских и военных, на
+                    железнодорожных и авиационных
+                    транспортных средствах.</p>
+                        <img src="img/prim.jpg" alt="">
+                    </div>
+            </div>
+            <div class="row__sec6Item1">
+                <div class="row_sec__text">
+                    <h1 class="number">06</h1>
+                    <h2>Пищевая-пром</h2>
+                    
+                </div>
+               
+                <div class="row_sec__img">
+                    <img src="img/prim6.jpg" alt="">
+                    <p>Применение Хеминклора позволяет
+    
+                    обеспечить идеальный
+                    санитарногигиенический режим на
+                    предприятиях
+                    
+                    по переработке продуктов питания.</p>
+                </div>
+            </div>
+            <div class="row__sec6Item7">
+                
+                <div class="sec6Item7__text">
+                    <h1 class="number">07</h1>
+                <h2>В быту</h2>
+               <p>Хеминклор незаменим для домашнего
+
+                    использования, при эпидемиях как
+                    
+                    средство широкого спектра, при
+                    
+                    вирусных инфекциях, для очистки и
+                    
+                    стерилизации домашней утвари,
+                    
+                    устранения неприятных запахов.</p>
+                   <div class="sec6Item7__img" style="background-image: url(img/prim7.jpg);">
+                     
+                </div>
+                </div>
+                
+            </div>
+        </div></div>
+    </section>
+    <section class="sec7" id="sec7">
+        <h1 class="sec__h1">ОБОРУДОВАНИЕ</h1>
+        <div class="sec7Items">
+            <div class="sec7__item">
+                <div class="sec7__item__head">
+                    <h4>D-MED 30</h4>
+                    <p>FOR SMALL SPACES</p>
+                </div>
+                <div class="sec7__item__cnt">
+                    <img src="img/prod1.jpg" alt="">
+                    <hr>
+                    <p>Treated area</p>
+                    <h5>200m<sup>3</sup></h5>
+                    <hr>
+                    <p>Product delivery</p>
+                    <h5>250 ml./h</h5>
+                    
+                    <hr>
+                    <p>Power</p>
+                    <h5>68 Watt</h5>
+
+                </div>
+                
+            </div>
+            <div class="sec7__item">
+                <div class="sec7__item__head">
+                    <h4>D-MED 300</h4>
+                    <p>FOR MEDIUM  SPACES</p>
+                </div>
+                <div class="sec7__item__cnt">
+                    <img src="img/prod2.jpg" alt="">
+                    <hr>
+                    <p>Treated area</p>
+                    <h5>1200m<sup>3</sup></h5>
+                    <hr>
+                    <p>Product delivery</p>
+                    <h5>3000 ml./h</h5>
+                    
+                    <hr>
+                    <p>Power</p>
+                    <h5>300 Watt</h5>
+
+                </div>
+                
+            </div>
+            <div class="sec7__item">
+                <div class="sec7__item__head">
+                    <h4>D-MED 600</h4>
+                    <p>FOR LARGE  SPACES</p>
+                </div>
+                <div class="sec7__item__cnt">
+                    <img src="img/prod3.jpg" alt="">
+                    <hr>
+                    <p>Treated area</p>
+                    <h5>4150m<sup>3</sup></h5>
+                    <hr>
+                    <p>Product delivery</p>
+                    <h5>6000 ml./h</h5>
+                    
+                    <hr>
+                    <p>Power</p>
+                    <h5>600 Watt</h5>
+
+                </div>
+                
+            </div>
+            <div class="sec7__item">
+                <div class="sec7__item__head">
+                    <h4>D-MED 900</h4>
+                    <p>FOR VERY LARGE SPACES</p>
+                </div>
+                <div class="sec7__item__cnt">
+                    <img src="img/prod4.jpg" alt="">
+                    <hr>
+                    <p>Treated area</p>
+                    <h5>6875m<sup>3</sup></h5>
+                    <hr>
+                    <p>Product delivery</p>
+                    <h5>9000 ml./h</h5>
+                    
+                    <hr>
+                    <p>Power</p>
+                    <h5>900 Watt</h5>
+
+                </div>
+                
+            </div>
+
+
+        </div>
+    </section>
+    <section class="sec8">
+        <h1 class="sec__h1">ОБОРУДОВАНИЕ, КОТОРОЕ
+            ПОМОЖЕТ ВАМ ОСТАВАТЬСЯ В
+            БЕЗОПАСНОСТИ И КОМФОРТЕ.</h1>
+        <p><span> Disinfect Med</span> имеет
+                запатентованные устройства,
+                 основанные на генерации
+                сухого
+                тумана, способного быстро
+                дезинфицировать закрытое
+                пространство,
+                используя
+                 дезинфицирующий биоцид
+                <br>
+                широкого спектра действия</p>
+                <div class="slider center" style="    display: flex;
+                place-content: center;
+                align-items: center;">
+            <div><img src="img/photo1.jpg" alt="" style="width: 100%;"></div>
+            <div><img src="img/photo2.jpg" style="width: 100%;" alt=""></div>
+            <div><img src="img/image-022.jpg" style="width: 100%;" alt=""></div>
+            <div><img src="img/photo3.jpg" style="width: 100%;" alt=""></div>
+   </div>
+        </section>
+    <section class="sec9">
+        <h1 class=" sec9__h1">ПОЧЕМУ DISINFECT MED?</h1>
+        <div class="sec9Items">
+            <div class="sec9__item">
+                <img src="img/pgoto5-removebg-preview (1).png" alt="">
+            </div>
+            <div class="sec9__item sec9__item2">
+                <p>DISINFECT MED В СОЧЕТАНИИ С
+                    ДЕЗИНФИЦИРУЮЩИМ СРЕДСТВОМ CHLORINE T
+                    (ХЛОР Т) ПОЛУЧИЛИ «ОТЛИЧНЫЕ» РЕЗУЛЬТАТЫ ОТ
+                    НЕСКОЛЬКИХ ЛАБОРАТОРНЫХ ИСПЫТАНИЙ,
+                    ПРОВЕДЕННЫХ В СИЛЬНО ЗАГРЯЗНЕННЫХ МЕСТАХ,
+                    ТАМ ГДЕ ДРУГОЕ ОБОРУДОВАНИЕ И/ИЛИ
+                    ДЕЗИНФИЦИРУЮЩИЕ СРЕДСТВА ДОСТИГЛИ
+                    ПЛОХИХ РЕЗУЛЬТАТОВ. ИСПЫТАНИЯ ПРОВОДИМЫЕ
+                    НА МАШИНАХ СКОРОЙ ПОМОЩИ, РЕСТОРАНАХ,
+                    ФЮЗЕЛЯЖЕ САМОЛЕТОВ, АВТОБУСОВ, ТРЮМОВ
+                    СУДОВ И Т.Д. БЛАГОДАРЯ ЭТОМУ МЫ С
+                    ГОРДОСТЬЮ ПРЕДЛАГАЕМ УНИКАЛЬНОЕ И
+                    ОТЛИЧНОЕ РЕШЕНИЕ НА МИРОВОМ РЫНКЕ.</p>
+                    <button class="sec9__btn"  ><a href="#form"> Оставить заявку</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="sec10">
+        <h1 class="sec__h1"> НАШИ ПРЕИМУЩЕСТВА</h1>
+        <div class="sec10Items">
+            <div class="sec10__item">
+                <img class="img1" src="img/italy.png"></img> 
+                <p>НАША ПРОДУКЦИЯ ПРОИЗВОДИТСЯ В ИТАЛИИ</p>
+            </div>
+            <div class="sec10__item">
+                <img class="img2" src="img/check-square-regular.jpg" alt="">
+                <p>ДОКУМЕНТАЛЬНО ПОДТВЕРЖДЕНО</p>
+            </div>
+
+        </div>
+    </section>
+    <hr class="hr2">
+    <section class="sec11" id="sec11">
+                    <h1 class="sec__h1" i>Часто задаваемые вопросы</h1>
+
+        <div class="sec11__text">
+            <h5>КАК РАБОТАЮТ НАШИ ДЕЗИНФЕКЦИОННЫЕ МАШИНЫ?</h5> <br>  
+            <p>Наши запатентованные машины распыляют специальное дезинфицирующее средство в помещении, следя за тем, чтобы всеповерхности были стерилизованы.
+                Таксоздается безопасная среда для вашихклиентов, сотрудников и вас.</p> <br>  
+            <h5>КАКОЙ ФРАГМЕНТАТОР ВЫБРАТЬ?</h5>  <br>  
+            <p>Наши машины поставляются в различных моделях для всех случаев использования и размеров помещений. Начиная с нашей самой маленькой машины D Med
+                30, которая покрывает площадь 200 м3, и заканчивая D Med 900, которая покрывает площадь 6875 м3.</p> <br>  
+            <h5>БЕЗОПАСНЫ ЛИ ФРАГМЕНТАТОРЫ?</h5> <br>  
+            <p> машины и дезинфицирующие средства абсолютно безопасны. Тем не менее, в комнате не должно быть людей, пока активирован дезинфицирующий
+                распылитель. Кроме того, после дезинфекции необходимо проветрить помещения, прежде чем использовать их снова.</p> <br>  
+        </div>
+    </section>
+   
+        
+
+<a class="scroll"
+href='#' id='Go_Top'>
+ <i style="color: rgb(68, 68, 68); font-size: 50px;" class="fa fa-arrow-up"></i>
+</a>
+
+        <form id="form">
+             <h1 >Мы перезвоним, чтобы уточнить условия оплаты
+            и записать ваш заказ</h1>
+            <input name="name" type="text" class="contact-form__input contact-form__input_name" placeholder="Ф.И.О">
+            <input name="tel" type="tel" class="contact-form__input contact-form__input_tel" placeholder=" номер телефона">
+            <input name="email" type="email" class="contact-form__input contact-form__input_email" placeholder="Введите ваш email">
+            <div class="contact-form__error contact-form__error_email"></div>
+         
+        
+         <button class="-form__button" type="submit">Заказать услугу</button>
+       </form>
+       
+           
+           
+       <footer class="footer" id="footer">
+        <div class="container1">
+            <div class="footer__left">
+              <a href="#"><img src="img/logo-removebg-preview.png" alt=""></a> 
+           </div>
+            <div class="footer__items">
+                <div class="footer__item footer__item1">
+                    
+                    <div class="footer__a footer__a1">
+
+                        <ul class="class__li1 class__li">
+                           <li><a href="#sec1">О нас</a> </li>
+                       <li><a href="#sec6">Приминение</a></li>
+                       <li><a href="#sec7">Обородувание</a></li>
+                       <li><a href="#sec11">Вопросы</a></li>
+                       <li><a href="#footer">Контакты</a></li>
+                       <li id="myBtn2">Памятка потребителя<a href=""></a></li> 
+                        </ul>
+    
+                    
+                        
+                    </div>
+                </div>
+                <div class="footer__item">
+                   
+                    <div class="footer__a">
+    
+                    
+                        <ul class="class__li">
+                            <li>Адрес: Наб. реки Фонтанки 10-15</li>
+                       <li class="li__span"><span> Телефон:</span> <span>+7 701 588 89 29 <br> +7 701 632 46 46</span>  
+
+                        </li>
+                       <li><a href="" class="fa fa-instagram"></a> disinfectmedeco</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__a">
+    
+                    
+                        <ul class="class__li">
+                            <li>Отдел продаж: 10:00 20:00</li>
+                            <li>E-mail: disinfectmedeco@mail.ru</li>
+                            <li> <a href="" class="fa fa-facebook"></a> disinfectmedeco</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+      
+          
+
+
+
+    </footer>
+  
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="script.js"></script>
+  <script src="slick/slick.min.js"></script>
+
+
+
+</body>
+</html>
