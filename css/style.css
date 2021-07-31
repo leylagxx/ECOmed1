@@ -24,8 +24,21 @@ main{
 
 }
 .scroll{
+  border: white 1px solid;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background-color: #fff;
   position: fixed;  left: 45px;
-bottom: 120px; cursor:pointer; display:none;
+bottom: 90px; cursor:pointer; display:none;
+
+background-color: rgba(26, 156, 206, 0.46);
+}
+.scroll img{
+  width: 50px;
+  position: absolute;
+  left: 21px;
+  top: 18px;
 }
 .slider {
   width: 100%;
@@ -185,8 +198,8 @@ body {
 
 .mybtn img {
   top: 14px;
-  width: 35px;
-  height: 64px;
+  width: 36px;
+  height: 41px;
   left: 31px;
 }
 
